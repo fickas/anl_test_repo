@@ -11,7 +11,7 @@ orbs:
   # See the orb documentation here: https://circleci.com/developer/orbs/orb/circleci/python
   python: circleci/python@1.2
   #pytest: thekevjames/pytest@0.0.60
-  tester: talkiq/tester@3.0.4
+  #tester: talkiq/tester@3.0.4
 
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
@@ -31,8 +31,8 @@ jobs:
     # CircleCI will report the results back to your VCS provider.
     steps:
       - checkout
-      #- python/install-packages:
-          #pkg-manager: pip
+      - python/install-packages:
+          pkg-manager: pip
           # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
           # pip-dependency-file: test-requirements.txt  # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
