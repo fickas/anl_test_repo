@@ -4,4 +4,4 @@ def hello(name='Steve'):
 
 def test_hello():
   name = 'Steve'
-  assert hello()=='Hello {name}!'
+  assert hello()==f'Hello {name}!'
