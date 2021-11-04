@@ -1,4 +1,4 @@
-from folder1.app import add
+from folder1.arithmetic import add
 
 def test_add():
   assert add(1,1)==2
