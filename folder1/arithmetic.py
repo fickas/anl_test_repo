@@ -1,5 +1,16 @@
 
+
 def sub(x,y,round=None):
+      """
+    Return a list of random ingredients as strings.
+
+    :param kind: Optional "kind" of ingredients.
+    :type kind: list[str] or None
+    :raise lumache.InvalidKindError: If the kind is invalid.
+    :return: The ingredients list.
+    :rtype: list[str]
+
+    """
   """
   Return the subtraction of two numbers::
 
@@ -48,11 +59,11 @@ def sub(x,y,round=None):
   """
   return x-y
 
-##list_add function
-#Adds two lists of numbers.
+##list_sub function
+#subss two lists of numbers.
 #  @param list1 a list of numbers.
 #  @param list2 a list of numbers.
-def list_add(list1, list2):
+def list_sub(list1, list2):
   assert len(list1)==len(list2)
-  new_list = [add(x,y) for x,y in zip(list1, list2)]
+  new_list = [sub(x,y) for x,y in zip(list1, list2)]
   return new_list
