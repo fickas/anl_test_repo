@@ -1,6 +1,6 @@
 
 
-def sub(x,y,round=None):
+def sub(x,y):
   """
   Return the subtraction of two numbers::
 
