@@ -53,3 +53,52 @@ def list_sub(list1, list2):
   assert len(list1)==len(list2)
   new_list = [sub(x,y) for x,y in zip(list1, list2)]
   return new_list
+
+#Adding this comment to just test committing and diff data
+def prod(A):
+  """
+  Return the product of all numbers within a list of numbers::
+
+  .. math:: `\prod_{a \in A} a'
+
+  Parameters
+  ----------
+  A: list of numbers
+
+  Returns
+  -------
+  product: product of all numbers in A. If A is empty, return 1.
+
+  Raises
+  ------
+  TypeError:
+      when an element of A does not support multiplication
+
+  See Also
+  --------
+  prod function from numpy library
+
+  Notes
+  -----
+  This is algorithm is linear in the length of A.
+
+  References
+  ----------
+  .. [1] Any textbook on mathematics.
+
+  Examples
+  --------
+  >>> prod([1,2,0])
+  0
+  >>> prod([.03333, .01111])
+  0.0003702963
+  >>> prod([])
+  1
+  """
+  
+  product = 1
+  for a in A:
+    product *= a
+
+  return product
+    
