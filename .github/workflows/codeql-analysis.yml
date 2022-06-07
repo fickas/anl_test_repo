@@ -11,9 +11,12 @@
 #
 name: "CodeQL"
 
+# Note trying to use paths below to limit the files analyzed.
 on:
   push:
     branches: [ main, development, staged ]
+    paths:
+      - '**.py'
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ main ]
