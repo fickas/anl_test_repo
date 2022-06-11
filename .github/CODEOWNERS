@@ -8,7 +8,7 @@
 *       @fickas
 
 
-# In this example, @doctocat owns any files in the build/logs
-# directory at the root of the repository and any of its
-# subdirectories.
-/folder1/* @FlareProject/steve_jason
+# This fails because I cannot figure out how to set up a team.
+# /folder1/* @FlareProject/steve_jason
+
+/folder1/* @fickas @jprideau
