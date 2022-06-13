@@ -53,3 +53,50 @@ def list_sub(list1, list2):
   assert len(list1)==len(list2)
   new_list = [sub(x,y) for x,y in zip(list1, list2)]
   return new_list
+
+def factorial(n):
+  """
+  Return factorial of n::
+
+  .. math:: `n!`
+
+  Parameters
+  ----------
+  n: positive int
+
+  Returns
+  -------
+  res: int
+      the result of factorial of n
+
+  Raises
+  ------
+  ValueError:
+      when 'n' is not a number
+
+  See Also
+  --------
+  math.factorial from the math library
+
+  Notes
+  -----
+  This is a recursive function
+
+  References
+  ----------
+  .. [1] Any textbook on mathematics.
+
+  Examples
+  --------
+  >>> factorial(0)
+  1
+  >>> factorial(1)
+  1
+  >>> factorial(5)
+  120
+  """
+
+  if n == 0:
+    return 1
+    
+  return n * factorial(n-1)
