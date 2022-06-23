@@ -1,4 +1,4 @@
-from folder2 import fum
+from folder2.strings import fum
 
 #Adding this comment to just test committing and diff data
 def sub(x,y):
@@ -54,3 +54,6 @@ def list_sub(list1, list2):
   assert len(list1)==len(list2)
   new_list = [sub(x,y) for x,y in zip(list1, list2)]
   return new_list
+
+def check_fum():
+  return fum()
