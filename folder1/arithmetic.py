@@ -1,3 +1,4 @@
+from folder2 import fum
 
 #Adding this comment to just test committing and diff data
 def sub(x,y):
