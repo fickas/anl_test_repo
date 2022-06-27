@@ -50,7 +50,7 @@ def sub(x,y):
   """
   return x-y
 
-def list_sub(list1, list2):
+def list_sub(list1:list, list2: list) -> list:
   assert len(list1)==len(list2)
   new_list = [sub(x,y) for x,y in zip(list1, list2)]
   return new_list
