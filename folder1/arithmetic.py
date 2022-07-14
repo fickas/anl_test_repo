@@ -57,3 +57,47 @@ def list_sub(list1:list, list2: list) -> list:
 
 def check_fum():
   return fum()
+
+def mult(x,y):
+  """
+  Return the subtraction of two numbers::
+
+  .. math:: `\mathtt{x} - \mathtt{y}'
+
+  Parameters
+  ----------
+  x: int, real, complex
+     first operand
+  y: int, real, complex
+     second operand
+
+
+  Returns
+  -------
+  z: int, real, complex
+      the result of subtraction
+
+  See Also
+  --------
+  Of course, subtraction is built-in to Python as minus sign.
+
+  Notes
+  -----
+  The algorithm is a straightforward implementation of
+  subtraction.
+
+  References
+  ----------
+  .. [1] Any textbook on mathematics.
+
+  Examples
+  --------
+  >>> sub(1,2)
+  -1
+  >>> sub(.03333, .01111)
+  .02222
+  >>> sub(.03333, .01111, round=3)
+  .022
+  """
+  return x*y
+
