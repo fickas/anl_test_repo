@@ -1,6 +1,6 @@
 from arithmetic import sub
 
-#Adding this comment to just test committing and diff data
+#Unit tests for sub function
 def test_sub():
   assert sub(2,1)==1
   assert sub(4,2)==2
