@@ -1,3 +1,5 @@
+#couple functions to test Doxygen documentation
+
 def square(x=10:int) -> int:
   """!
   @brief Squares an integer.
