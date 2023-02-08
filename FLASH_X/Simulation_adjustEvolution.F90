@@ -56,7 +56,7 @@ subroutine Simulation_adjustEvolution(blkcnt, blklst, nstep, dt, stime)
   call Timers_start("adjustEvo")
 
 
-!!$  ! We want the NEW time that we are advancing TO.
+!!$  ! We want the NEW time that we are advancing TO. Emphasis on NEW time.
 !!$  ! This is based on where Simulation_adjustEvolution is called from Driver_evolveAll:
 !!$  ! dr_simTime has not been updated yet at this point.
 !!$  !!DEV: Check whether this needs adjustments for non-"Unsplit" Driver_evolveAll.F90 !
