@@ -26,7 +26,7 @@
 !!
 !! @attention
 !! Only partial functionality has been implemented so far.  This routine
-!! aborts if calling code attempts to use unimplemented functionality.
+!! aborts if calling code attempts to use unimplemented functionality. So be wary.
 !!
 !! @todo Code up full implementation
 !! @todo gr_setGcFillNLayers appears to be Paramesh-specific.  Can we get rid
