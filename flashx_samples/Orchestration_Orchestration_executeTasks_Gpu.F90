@@ -21,7 +21,7 @@
 !!
 !! @brief Execute a task function with the GPU-only thread team configuration
 !!
-!! @details
+!! @details <missing details>
 !! Use the runtime to execute the given task function with the GPU-only thread team
 !! configuration.  Upon termination, the task function will have been applied to
 !! all leaf blocks by the GPUs assigned to each MPI process' runtime instance and in
@@ -43,11 +43,11 @@
 !! @todo For logging purposes, this interface should accept a name for the task
 !! function.
 !!
-!! @param MH_taskFunction       The task function to be executed by the single
+!! @param MH_taskFunction       <missing param info>The task function to be executed by the single
 !!                              thread team.  It is assumed that this function
 !!                              was written to launch kernels on GPUs
 !! @param nDistributorThreads   The number of distributor threads to use
-!! @param nThreads              The number of threads to activate in team
+!! @param nThreads              <missing param info>The number of threads to activate in team
 !! @param nTilesPerPacket       The maximum number of tiles allowed in each
 !!                              packet
 !! @param MH_packet_Cptr        Pointer to a prototype data packet to be
