@@ -1,3 +1,4 @@
+!! @copyright
 !!****if* source/Simulation/SimulationMain/Sedov/Simulation_adjustEvolution
 !! NOTICE
 !!  Copyright 2022 UChicago Argonne, LLC and contributors
