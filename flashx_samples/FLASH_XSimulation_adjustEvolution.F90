@@ -27,8 +27,10 @@
 !!  the simulation while it is running.
 !!  
 !! ARGUMENTS
-!!  blkcnt - number of blocks
+!!  blkcnt - number of blocks 
+!!  <Insert blkcnt>
 !!  blklst - block list
+!!  __AUTO_INSERT_blklst__
 !!  nstep - current cycle number
 !!  dt - current time step length
 !!  stime - current simulation time
