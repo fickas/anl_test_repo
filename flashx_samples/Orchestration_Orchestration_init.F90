@@ -19,12 +19,7 @@
 !! @brief Initialize the Orchestration unit
 !!
 !! @details
-!! This routine should be called at most once during program execution and should
-!! only be called if the Grid unit has already been initialized.  Upon terminating,
-!! this routine leaves the Orchestration unit ready for full use.  If this routine
-!! is called, then calling code must eventually call Orchestration_finalize.
-!!
-!! It is intended that only the Driver unit call this routine.
+!! <insert details>
 subroutine Orchestration_init()
     implicit none
     RETURN
