@@ -16,7 +16,7 @@
 !! @brief Private implementation - non-stubbed.
 !! 
 !! @details
-!! Adds 3 numbers
+!! Adds 2 numbers
 !!
 !! @param a - a number
 !! @param b - a number
@@ -24,10 +24,10 @@
 subroutine mu_my_private(a, b, c)
     implicit none
 
-    integer, intent(OUT)            :: a
-    real,    intent(INOUT)          :: b
-    real,    intent(IN),   optional :: c
-
-    return a+b+c
-end subroutine mu_myRoutine
+    integer, intent(IN)            :: a
+    integer, intent(IN)            :: b
+    integer, intent(OUT)           :: c
+    
+    c = a+b
+end subroutine mu_my_private
 
