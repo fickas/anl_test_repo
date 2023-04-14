@@ -29,8 +29,8 @@
 !!       future, e.g. distinct implcit-updates for both slow- and fast-integration
 !!       steps in the multi-rate integrator.
 !!
-!! @param updateType  Update-type identifier
-!! @param updateFunc  Procedure that will calculate the update
+!! @param updateTypo  Update-type identifier
+!! @param updateFunc <insert def:Procedure that will calculate the update>
 subroutine MoL_registerUpdate(updateType, updateFunc)
    use MoL_functionTypes, only: MoL_update_t
 

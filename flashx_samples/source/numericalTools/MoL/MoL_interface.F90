@@ -11,7 +11,7 @@
 !!   limitations under the License.
 !! @endlicenseblock
 !!
-!! @file
+!! @__file__
 !! @brief Public interfaces for MoL
 !!
 !! @details This is the header file for the method of lines time integration unit
