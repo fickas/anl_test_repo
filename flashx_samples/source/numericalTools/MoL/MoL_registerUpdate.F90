@@ -30,7 +30,7 @@
 !!       steps in the multi-rate integrator.
 !!
 !! @param updateType  Update-type identifier
-!! @param <insert updateFunc  Procedure that will calculate the update>
+!! @param updateFunc <insert def:Procedure that will calculate the update>
 subroutine MoL_registerUpdate(updateType, updateFunc)
    use MoL_functionTypes, only: MoL_update_t
 
