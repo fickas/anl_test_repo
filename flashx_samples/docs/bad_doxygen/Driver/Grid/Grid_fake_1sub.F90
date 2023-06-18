@@ -15,21 +15,21 @@
 
 ! FORMATTING RULES
 !
-! Analogous to those for the MyUnit_myRoutine stub.
+! Analogous to those for the Driver_myRoutine stub.
 
-!> @ingroup MyUnit
-!! @anchor MyUnit_complexGeneric_noRuntime_stub
+!> @ingroup Driver
+!! @anchor Driver_complexGeneric_noRuntime_stub
 !!
-!! @brief No-runtime version of @ref myunit_interface::myunit_complexgeneric "MyUnit_complexGeneric generic interface"
+!! @brief No-runtime version of @ref driver_interface::driver_complexgeneric "Driver_complexGeneric generic interface"
 !! 
 !! @details
 !! This section should be written following the same rules for the details
-!! section of the MyUnit_myRoutine stub and should establish the contract for
+!! section of the Driver_myRoutine stub and should establish the contract for
 !! this particular version of the generic interface.
 !!
 !! @param a   My a argument
 !! @param b   My b argument
-subroutine MyUnit_complexGeneric_noRuntime(a, b)
+subroutine Driver_complexGeneric_noRuntime(a, b)
     implicit none
 
     ! NOTE: The full argument details are *not* included in the @param above
@@ -38,4 +38,4 @@ subroutine MyUnit_complexGeneric_noRuntime(a, b)
     real,    intent(OUT) :: b
 
     ...
-end subroutine MyUnit_complexGeneric_noRuntime
+end subroutine Driver_complexGeneric_noRuntime
