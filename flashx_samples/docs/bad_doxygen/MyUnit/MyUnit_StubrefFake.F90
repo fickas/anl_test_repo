@@ -19,7 +19,7 @@
 
 !! @ingroup MyUnit
 !! @stubref{ApplePie}
-!! @anchor MyUnit_simpleGeneric_int_stub
+!! @anchor MyUnit_StubrefFake_stub
 !!
 !! @brief Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
 !! 

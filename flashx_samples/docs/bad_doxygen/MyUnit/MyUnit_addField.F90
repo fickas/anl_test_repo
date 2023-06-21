@@ -18,7 +18,7 @@
 ! Analogous to those for the MyUnit_addField stub.
 
 !> @ingroup MyUnit
-!! @anchor MyUnit_addField
+!! @anchor MyUnit_addField_stub
 !!
 !! @brief Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
 !! 

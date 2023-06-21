@@ -18,7 +18,7 @@
 ! Analogous to those for the MyUnit_myRoutine stub.
 
 !> @ingroup MyUnit
-!! @anchor MyUnit_simpleGeneric_int_stub
+!! @anchor MyUnit_FakeInserts_stub
 !!
 !! @brief 
 !! <insert Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"

@@ -18,7 +18,7 @@
 ! Analogous to those for the MyUnit_myRoutine stub.
 
 !> @ingroup Apple Pie
-!! @anchor MyUnit_simpleGeneric_int_stub
+!! @anchor MyUnit_WrongIngroup_stub
 !!
 !! @brief Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
 !! 
