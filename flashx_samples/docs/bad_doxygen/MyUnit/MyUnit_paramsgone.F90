@@ -27,8 +27,7 @@
 !! section of the MyUnit_myRoutine stub and should establish the contract for
 !! all versions of this generic interface.
 !!
-!! @param  
-!! <insert
+!! 
 !!    
 subroutine MyUnit_simpleGeneric_int(a, b)
     implicit none

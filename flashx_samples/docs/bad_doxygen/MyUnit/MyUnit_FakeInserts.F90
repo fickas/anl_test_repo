@@ -20,8 +20,8 @@
 !> @ingroup MyUnit
 !! @anchor MyUnit_FakeInserts_stub
 !!
-!! @brief 
-!! <insert Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
+!! @brief <insert 
+!! Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
 !! 
 !! @details 
 !! <insert
