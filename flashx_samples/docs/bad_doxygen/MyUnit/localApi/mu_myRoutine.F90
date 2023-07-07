@@ -17,9 +17,7 @@
 !
 ! Analogous to those for the MyUnit_myRoutine stub.
 
-!> @ingroup MyUnitPrivate
-!! @anchor mu_myRoutine_stub
-!!
+!> 
 !! @brief <Add in one-line description>
 !! 
 !! @details
@@ -27,8 +25,6 @@
 !! section of the MyUnit_myRoutine stub.
 !!
 !! @param a   My a argument
-!! @param b   My b argument
-!! @param c   My c argument
 subroutine mu_myRoutine(a, b, c)
     implicit none
 
