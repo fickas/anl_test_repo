@@ -20,7 +20,6 @@
 !!
 !! @param a - a number
 !! @param b - a number
-!! @param c - a number
 subroutine mu_my_private(a, b, c)
     implicit none
 

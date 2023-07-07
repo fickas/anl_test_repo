@@ -23,8 +23,7 @@
 !! @brief <insert 
 !! Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
 !! 
-!! @details 
-!! <insert
+!! @details <insert
 !! This section should be written following the same rules for the details
 !! section of the MyUnit_myRoutine stub and should establish the contract for
 !! all versions of this generic interface.

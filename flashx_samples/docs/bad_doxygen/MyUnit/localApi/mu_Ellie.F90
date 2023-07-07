@@ -15,16 +15,17 @@
 
 ! FORMATTING RULES
 !
-! As for MyUnit_interface.
+! As for MyUnit_ellie.
 
-!> 
+!> @ingroup MyUnitPrivate
 !!
-!! @brief Private interface of MyUnit's memory management sub-unit
+!! @brief Private ellie of the MyUnit unit
 !!
 !! @details
 !! A standard Flash-X Fortran module that encapsulates the interface declarations
-!! of all routine's in MyUnit's private, dedicated memory management sub-unit.
-module mu_memInterface
+!! of all routine's in the MyUnit unit that are part of the unit's private
+!! interface.
+module mu_ellie
 
     implicit none
 
@@ -36,4 +37,4 @@ module mu_memInterface
         ...
     end interface
 
-end module mu_memInterface
+end module mu_ellie
