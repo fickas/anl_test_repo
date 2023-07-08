@@ -17,7 +17,9 @@
 !
 ! Analogous to those for the MyUnit_myRoutine stub.
 
-!> 
+!> @ingroup MyUnitPrivate
+!! @anchor mu_memMyRoutine_stub
+!!
 !! @brief <Add in one-line description>
 !! 
 !! @details
@@ -25,7 +27,9 @@
 !! section of the MyUnit_myRoutine stub.
 !!
 !! @param a   My a argument
-subroutine mu_myRoutine(a, b, c)
+!! @param b   My b argument
+!! @param c   My c argument
+subroutine mu_memMyRoutine(a, b, c)
     implicit none
 
     ! NOTE: The full argument details are *not* included in the @param above
@@ -35,4 +39,4 @@ subroutine mu_myRoutine(a, b, c)
     real,    intent(IN),   optional :: c
 
     ...
-end subroutine mu_myRoutine
+end subroutine mu_memMyRoutine

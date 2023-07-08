@@ -17,7 +17,7 @@
 !
 ! As for MyUnit_interface.
 
-!> @ingroup MyUnitPrivate
+!> 
 !!
 !! @brief Private interface of MyUnit's memory management sub-unit
 !!

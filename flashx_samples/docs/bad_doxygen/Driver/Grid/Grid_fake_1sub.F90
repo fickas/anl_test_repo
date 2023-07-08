@@ -15,24 +15,27 @@
 
 ! FORMATTING RULES
 !
-! Analogous to those for the MyUnit_myRoutine stub.
+! Analogous to those for the Grid_myRoutine stub.
 
-!> 
-!! @brief <Add in one-line description>
+!> @ingroup Grid
+!! @anchor Grid_fake_1sub_stub
+!!
+!! @brief Integer version of @ref grid_interface::grid_fake_1sub "Grid_fake_1sub generic interface"
 !! 
 !! @details
 !! This section should be written following the same rules for the details
-!! section of the MyUnit_myRoutine stub.
+!! section of the Grid_myRoutine stub and should establish the contract for
+!! all versions of this generic interface.
 !!
 !! @param a   My a argument
-subroutine mu_myRoutine(a, b, c)
+!! @param b   My b argument
+subroutine Grid_fake_1sub_int(a, b)
     implicit none
 
     ! NOTE: The full argument details are *not* included in the @param above
-    ! because Doxygen can parse the code to autmatically determine such details.
-    integer, intent(OUT)            :: a
-    real,    intent(INOUT)          :: b
-    real,    intent(IN),   optional :: c
+    ! because Doxygen can parse the code to automatically determine such details.
+    integer, intent(IN)  :: a
+    real,    intent(OUT) :: b
 
     ...
-end subroutine mu_myRoutine
+end subroutine Grid_fake_1sub_int

@@ -11,6 +11,12 @@
 !! limitations under the License.
 !! @endlicenseblock
 !!
+!! @defgroup 
+!! testing bogus fields
+!!
+!! @stubref
+!! testing bogus fields
+!!
 !! @file
 
 ! FORMATTING RULES
@@ -18,9 +24,9 @@
 ! Analogous to those for the MyUnit_myRoutine stub.
 
 !> @ingroup MyUnit
-!! @anchor MyUnit_simpleGeneric_int_stub
+!! @anchor MyUnit_1stub_stub
 !!
-!! @brief Integer version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
+!! @brief Integer version of @ref myunit_interface::myunit_1stub "MyUnit_1stub generic interface"
 !! 
 !! @details
 !! This section should be written following the same rules for the details
@@ -29,7 +35,7 @@
 !!
 !! @param a   My a argument
 !! @param b   My b argument
-subroutine MyUnit_simpleGeneric_int(a, b)
+subroutine MyUnit_1stub_int(a, b)
     implicit none
 
     ! NOTE: The full argument details are *not* included in the @param above
@@ -38,21 +44,4 @@ subroutine MyUnit_simpleGeneric_int(a, b)
     real,    intent(OUT) :: b
 
     ...
-end subroutine MyUnit_simpleGeneric_int
-
-!> @ingroup MyUnit
-!! @anchor MyUnit_simpleGeneric_real_stub
-!!
-!! @brief Real version of @ref myunit_interface::myunit_simplegeneric "MyUnit_simpleGeneric generic interface"
-!! 
-!! @details
-!! This version is a trivial variant of the Integer version.  Refer to the
-!! documentation of MyUnit_simpleGeneric_int for more information.
-subroutine MyUnit_simpleGeneric_real(a, b)
-    implicit none
-
-    real, intent(IN)  :: a
-    real, intent(OUT) :: b
-
-    ...
-end subroutine MyUnit_simpleGeneric_real
+end subroutine MyUnit_1stub_int

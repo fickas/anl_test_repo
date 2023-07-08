@@ -17,18 +17,18 @@
 !
 ! Analogous to those for the MyUnit_myRoutine stub.
 
-!> @ingroup MyUnit
-!! @anchor MyUnit_complexGeneric_noRuntime_stub
+!! @anchor MyUnit_complexGeneric1_noRuntime_stub
 !!
-!! @brief No-runtime version of @ref myunit_interface::myunit_complexgeneric "MyUnit_complexGeneric generic interface"
+!! @brief No-runtime version of @ref myunit_interface::myunit_complexgeneric1 "MyUnit_complexGeneric1 generic1 interface"
 !! 
 !! @details
 !! This section should be written following the same rules for the details
 !! section of the MyUnit_myRoutine stub and should establish the contract for
-!! this particular version of the generic interface.
+!! this particular version of the generic1 interface.
 !!
 !! @param a   My a argument
-subroutine MyUnit_complexGeneric_noRuntime(a, b)
+!! @param b   My b argument
+subroutine MyUnit_complexGeneric1_noRuntime(a, b)
     implicit none
 
     ! NOTE: The full argument details are *not* included in the @param above
@@ -37,23 +37,23 @@ subroutine MyUnit_complexGeneric_noRuntime(a, b)
     real,    intent(OUT) :: b
 
     ...
-end subroutine MyUnit_complexGeneric_noRuntime
+end subroutine MyUnit_complexGeneric1_noRuntime
 
-!> @ingroup MyUnit
-!! @anchor MyUnit_complexGeneric_cpuOnly_stub
+!! @anchor MyUnit_complexGeneric1_cpuOnly_stub
 !!
-!! @brief CPU-only version of @ref myunit_interface::myunit_complexgeneric "MyUnit_complexGeneric generic interface"
+!! @brief CPU-only version of @ref myunit_interface::myunit_complexgeneric1 "MyUnit_complexGeneric1 generic1 interface"
 !! 
 !! @details
 !! This section should be written following the same rules for the details
 !! section of the MyUnit_myRoutine stub and should establish the contract for
-!! this particular version of the generic interface.  Documentation writers
+!! this particular version of the generic1 interface.  Documentation writers
 !! should determine how to relate this content to the details in the other versions
 !! so that documentation creation & maintenance is easy and successful.
 !!
 !! @param a1  My a1 argument
 !! @param a2  My a2 argument
-subroutine MyUnit_complexGeneric_cpuOnly(a1, a2, b)
+!! @param b   My b argument
+subroutine MyUnit_complexGeneric1_cpuOnly(a1, a2, b)
     implicit none
 
     integer, intent(IN)  :: a1
@@ -61,4 +61,4 @@ subroutine MyUnit_complexGeneric_cpuOnly(a1, a2, b)
     real,    intent(OUT) :: b
 
     ...
-end subroutine MyUnit_complexGeneric_cpuOnly
+end subroutine MyUnit_complexGeneric1_cpuOnly
