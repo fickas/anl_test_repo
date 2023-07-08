@@ -15,26 +15,28 @@
 
 ! FORMATTING RULES
 !
-! As for MyUnit_ellie.
+! Analogous to those for the MyUnit_myRoutine stub.
 
 !> @ingroup MyUnitPrivate
+!! @anchor mu_ellie_stub
 !!
-!! @brief Private ellie of the MyUnit unit
-!!
+!! @brief <Add in one-line description>
+!! 
 !! @details
-!! A standard Flash-X Fortran module that encapsulates the interface declarations
-!! of all routine's in the MyUnit unit that are part of the unit's private
-!! interface.
-module mu_ellie
-
+!! This section should be written following the same rules for the details
+!! section of the MyUnit_myRoutine stub.
+!!
+!! @param a   My a argument
+!! @param b   My b argument
+!! @param c   My c argument
+subroutine mu_memMyRoutine(a, b, c)
     implicit none
 
-    ! Since a unit's private interface is defined by the stubs, this module, whose
-    ! existence is motivated by Flash-X's internal design rules, does not need
-    ! much documentation.  In particular, do *not* use doxygen to document the
-    ! different interfaces below.
-    interface
-        ...
-    end interface
+    ! NOTE: The full argument details are *not* included in the @param above
+    ! because Doxygen can parse the code to autmatically determine such details.
+    integer, intent(OUT)            :: a
+    real,    intent(INOUT)          :: b
+    real,    intent(IN),   optional :: c
 
-end module mu_ellie
+    ...
+end subroutine mu_memMyRoutine
