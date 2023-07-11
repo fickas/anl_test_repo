@@ -9,7 +9,7 @@ of subroutines and functions, it does not include the part of the contract that
 is higher-level and related to the unit as a whole.  This portion of the unit's
 contract can go here.  As with the stubs, all implementations must make sure
 that their code satisfies this part of the contract as well.  Some examples of
-contract details are
+contract details are:
 - How the unit should be used within Flash-X and in conjunction with other units
 - What can differentiate one implementation of the unit from another.
   Details related to a single implementation should go in that implementation's
