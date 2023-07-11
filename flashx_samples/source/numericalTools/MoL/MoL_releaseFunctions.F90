@@ -14,6 +14,7 @@
 !! @endlicenseblock
 !!
 !! @brief MoL_releaseFunctions stub
+!!
 
 !> @ingroup MoL
 !!

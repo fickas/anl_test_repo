@@ -12,6 +12,7 @@
 !! @endlicenseblock
 !!
 !! @file
+!!
 !! @brief MoL_releaseFunctions implementation
 
 !> @ingroup MoLMain

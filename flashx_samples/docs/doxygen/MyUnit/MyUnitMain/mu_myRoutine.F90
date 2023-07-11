@@ -15,7 +15,7 @@
 
 ! FORMATTING RULES
 !
-! Analogous to those for the concrete implementation of MyUnit_myRoutine.
+! Analogous to those for the concrete implementation of MyUnit_myRoutine. Find stub in localApi.
 
 !> @ingroup MyUnitMain
 !! @stubref{mu_myRoutine}

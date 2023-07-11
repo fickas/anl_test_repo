@@ -27,7 +27,7 @@
 !
 ! @ingroup should refer to the group name for this unit's stub group.  This is
 ! declared as the first item in the @defgroup statement in MyUnit.dox.
-! @anchor must always be <subroutine/function name>_stub
+! @anchor must always be <subroutine/function name>_stub.
 
 #include "constants.h"
 

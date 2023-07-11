@@ -13,7 +13,7 @@
 !!
 !! @file
 !!
-!! @brief Private implementation - non-stubbed.
+!! @brief Private implementation - non-stubbed, i.e., no stub under localApi.
 !! 
 !! @details
 !! Adds 2 numbers
