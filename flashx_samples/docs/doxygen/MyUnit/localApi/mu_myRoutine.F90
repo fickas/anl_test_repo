@@ -15,7 +15,7 @@
 
 ! FORMATTING RULES
 !
-! Analogous to those for the MyUnit_myRoutine stub.
+! Analogous to those for the MyUnit_myRoutine stub under MyUnit.
 
 !> @ingroup MyUnitPrivate
 !! @anchor mu_myRoutine_stub
