@@ -29,7 +29,7 @@
 ! Aside from updating the name of the subroutine, no other changes should be made
 ! to the @brief line.
 !
-! Note that we don't include @param here since those are documented in the stubs.
+! Note that we omit @param here since those are documented in the stubs.
 
 #include "Simulation.h"
 
