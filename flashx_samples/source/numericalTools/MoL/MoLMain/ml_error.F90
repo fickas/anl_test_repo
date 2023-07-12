@@ -12,7 +12,7 @@
 !! @endlicenseblock
 !!
 !! @file
-!! @brief ml_error implementation
+!! @brief ml_error implementation.
 
 !> @ingroup MoLMain
 !!
