@@ -16,7 +16,7 @@
 
 !> @ingroup MoL
 !!
-!! @brief Register a procedure responsible for performing an update
+!! @brief Register a procedure responsible for performing an update.
 !!
 !! @details
 !! @anchor MoL_registerUpdate_stub
