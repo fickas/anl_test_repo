@@ -12,7 +12,7 @@
 !! @endlicenseblock
 !!
 !! @file
-!! @brief MoL_registerUpdate implementation
+!! @brief MoL_registerUpdate implementation.
 
 !> @ingroup MoLMain
 !!
