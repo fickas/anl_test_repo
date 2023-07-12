@@ -25,7 +25,7 @@
 !! DESCRIPTION
 !! 
 !!  Create the mesh, initialize all the mesh data structures
-!!  and apply initial conditions
+!!  and apply initial conditions.
 !!
 !!
 !! ARGUMENTS
