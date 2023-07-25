@@ -20,7 +20,7 @@
 !!
 !! @details
 !! This implementation saves the intial state of the evolved variables at
-!! time `t` and calls a method-specific `ml_advance`
+!! time `t` and calls a method-specific `ml_advance`.
 !!
 !! @stubref{MoL_advance}
 subroutine MoL_advance(t, dt)
