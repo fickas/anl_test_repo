@@ -16,7 +16,7 @@
 
 !> @ingroup MoLPrivate
 !!
-!! @brief Issue a MoL-specific error message and abort
+!! @brief Issue a MoL-specific error message and abort.
 !!
 !! @details
 !! @anchor ml_error_stub
