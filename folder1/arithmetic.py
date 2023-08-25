@@ -1,6 +1,7 @@
 from folder2.strings import fum
 
 #Adding this comment to just test committing and diff data
+#Adding new comment to test subscriptions.
 def sub(x,y, round=2):
   """
   Return the subtraction of two numbers::
