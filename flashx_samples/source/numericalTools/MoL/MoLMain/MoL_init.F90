@@ -13,7 +13,7 @@
 !!
 !! @file
 !! @brief MoL_init implementation
-
+!! @defgroup numericalTools/MoL/MoLMain
 !! @ingroup MoLMain
 !!
 !! @brief Implements MoL_init
