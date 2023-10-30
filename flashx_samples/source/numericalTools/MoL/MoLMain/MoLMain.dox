@@ -14,7 +14,7 @@
    @endparblock
 
    @internal
-   @defgroup MoLMain MoLMain
+   @defgroup flashx_samples/source/numericalTools/MoL/MoLMain MoLMain
    @ingroup MoL
 
    @brief Provides implementations for public interface procedures that are common to all integrators
